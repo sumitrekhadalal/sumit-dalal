@@ -1,0 +1,126 @@
+    1  docker -v
+    2  docker images
+    3  docker images
+    4  service docker start
+    5  docker images
+    6  docker ps -a
+    7  docker ps 
+    8  docker start sumit1
+    9  docker attach sumit1
+   10  docker run -tf --name sumit2 sumit1 /bin/bash
+   11  docker run -ti --name sumit2 sumit1 /bin/bash
+   12  docker run -ti --name sumit2 sumit /bin/bash
+   13  docker images
+   14  docker run -ti --name sumit2 sumitimage /bin/bash
+   15  docker image
+   16  docker images
+   17  docker ps -a
+   18  docker start sumit2
+   19  docker ps
+   20  docker /etc/os-release 
+   21  cat /etc/os-release 
+   22  ll
+   23  vim Dockerfile
+   24  docker build -t Dockerfile .
+   25  docker build -t dockerfile .
+   26  docker images
+   27  docker run -it --name test dockerfile /bin/bash
+   28  service docker start
+   29  docker image
+   30  docker images
+   31  docker ps -a
+   32  docker rum -it --name enginx -p 80:80 ubuntu /bin/bash
+   33  docker rum -it -d --name enginx -p 80:80 ubuntu /bin/bash
+   34  docker run -it -d --name enginx -p 80:80 ubuntu /bin/bash
+   35  docker ps -a
+   36  docker start enginx
+   37  docker attach enginx
+   38  service start docker
+   39  docker -v
+   40  systemctl start docker
+   41  systemctl status docker
+   42  docker images
+   43  apt install git -y
+   44  docker ps -a
+   45  docker start enginx
+   46  docker attach enginx
+   47  apt install git -y
+   48  yum install git -y
+   49  git status
+   50  git clone git@github.com:sumitrekhadalal/docker-image.git
+   51  git init
+   52  yum update
+   53  ll
+   54  cd ..
+   55  ll
+   56  l
+   57  cd ec2-user/
+   58  ll
+   59  ls -a
+   60  docker build -t myimage 
+   61  vim Dockerfile 
+   62  docker build -t myimage .
+   63  ll
+   64  docker build -t myimage .docker images
+   65  docker images
+   66  ll
+   67  git status
+   68  git add myimage
+   69  git remote add origin git@github.com:sumitrekhadalal/docker-image.git
+   70  ll -a
+   71  systemctl docker start
+   72  systemctl start docker
+   73  docker -v
+   74  sudo su
+   75  systemctl docker start
+   76  systemctl docker start
+   77  systemctl start docker
+   78  docker image
+   79  docker images
+   80  docker images
+   81  docker search centos
+   82  docker pull centos
+   83  docker images
+   84  docker run -it -d --name bhagi centos /bin/bash
+   85  docker ps 
+   86  docker ps -a
+   87  docker attach sumit
+   88  docker attach sumit
+   89  docker start sumit
+   90  docker attach sumit
+   91  ll
+   92  cat Dockerfile 
+   93  docker attach sumit
+   94  docker start sumit
+   95  docker attach sumit
+   96  docker commit sumit bhagi-image
+   97  docker images
+   98  docker run -it -d --name con1 bhagi-image /bin/bash
+   99  docker ps
+  100  docker attach con1
+  101  ll
+  102  rm -rf Dockerfile 
+  103  vim Dockerfile
+  104  ll
+  105  docker build bhagyashri Dockerfile 
+  106  docker build -t bhagyashri Dockerfile 
+  107  ll
+  108  docker build -t Dockerfile 
+  109  docker build -t bhagyashree
+  110  docker build -t 
+  111  docker build -t bhagi1 Dockerfile 
+  112  pwd
+  113  /home/ec2-user
+  114  docker build -t bhagi1 /home/ec2-userDockerfile 
+  115  /home/ec2-user
+  116  docker build -t bhagi /home/ec2-user
+  117  ll
+  118  docker images
+  119  git init
+  120  yum install git
+  121  git init
+  122  git status
+  123  docker run -it -d --name kali bhagi /bin/bash
+  124  docker ps
+  125  docker attach kali
+  126  history >> bhagi.txt
